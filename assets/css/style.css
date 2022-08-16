@@ -8,52 +8,49 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
+/*Not sure if this part is right but got the links in the correct looking spots*/
+.link {
+    display:inline-block;
+    margin-left: 500px;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/*switched float direction among some margin changes to make the list go in the correct order*/
 a {
+    float: left;
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
+    margin-left: 20px;
+    margin-right:100px;
 }
 
 .hero {
-    height: 800px;
+    height: 700px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -74,9 +71,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*added top margin*/
 .benefits {
     margin-right: 20px;
+    margin-top: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -133,9 +131,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*added a top margin*/
 .search-engine-optimization {
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -195,6 +194,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
